@@ -1,0 +1,15 @@
+Theory for paint assgn
+"PhotoImage()" function returns the image object.
+To display image in Python is as simple as that. But, the problem is PhotoImage class only supports GIF and PGM/PPM formats.
+ 
+The more generalized formats are JPEG/JPG and PNG. To open and display with those formats, we need help of ImageTk and Image classes from PIL(photo imaging Library) package.
+ 
+With the help of PIL(photo imaging Library), we can load images in over 30 formats and convert them to image objects, even base64-encoded GIF files from strings!!
+Image class has an attribute "open()" which would open the not-so-directly-supported image formats and along with "ImageTk.PhotoImage()", we can return the image object and use it.
+
+clear button does not clear the canvas colour if it is chosen
+canvas colour : configure
+message box is used to give message to the user that our image is saved
+
+Difference between grid and place:
+

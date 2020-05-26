@@ -1,0 +1,21 @@
+Both write the object to the output stream specified by :stream, which defaults to the value of *standard-output*. Other values default to the corresponding global variables set for printing.
+2 	
+
+prin1 object & optional output-stream
+
+print object & optional output-stream
+
+pprint object & optional output-stream
+
+princ object & optional output-stream
+
+All these functions outputs the printed representation of object to output-stream. However, the following differences are there −
+
+    prin1 returns the object as its value.
+
+    print prints the object with a preceding newline and followed by a space. It returns object.
+
+    pprint is just like print except that the trailing space is omitted.
+
+    princ is just like prin1 except that the output has no escape character
+
