@@ -1,4 +1,4 @@
-PPL ASsignments
+PPL Assignments
 MIS: 111803185
 SY COMP DIV 2
 Batch : S4
